@@ -1,0 +1,19 @@
+{
+  "name": "grackle",
+  "version": "1.0.0",
+  "description": "An embeddable wpm tracker and visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slipperypenguin/grackle.git"
+  },
+  "author": "Brady Paterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slipperypenguin/grackle/issues"
+  },
+  "homepage": "https://github.com/slipperypenguin/grackle#readme"
+}
