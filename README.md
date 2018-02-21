@@ -49,7 +49,8 @@ File | race wpm accuracty | Plot @Labels@
 
 ## References
 - https://github.com/cslarsen/wpm
+- https://github.com/chriswolfvision/eplot
+- https://github.com/glamp/bashplotlib
 - https://github.com/madbence/node-drawille
-- https://github.com/madbence/node-drawille-canvas
 - https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/
 - https://stackoverflow.com/questions/123378/command-line-unix-ascii-based-charting-plotting-tool
