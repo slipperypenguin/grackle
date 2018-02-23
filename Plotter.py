@@ -26,11 +26,12 @@ x = np.linspace(0, 5, 100, endpoint=False)
 ## Plot syntax:
 #   gp.plot(curve, curve, ...., Plot-and-Curve-options)
 #gp.plot( (x, np.cos(x), {'legend': 'cosine'}),
-
+#linetype 1 lc rgb "red"
+# set      = 'style line 1 lt rgb "red"',
 
 gp.plot( (wpm, {'legend': 'WPM'}),
 
-         title    = 'WPM Graph',
-         _with    = 'lines',
-         terminal = 'dumb 80,40',
-         unset    = 'grid')
+         title='WPM Graph',
+         _with='lines lc rgb "red"',
+         terminal='dumb 80,40',
+         unset='grid')
