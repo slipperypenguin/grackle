@@ -48,9 +48,9 @@ File | race wpm accuracty | Plot @Labels@
 `cat data/wpm_ec.csv | ./ec -, 1 2 3 | ./eplot -M -t Race@wpm@Acc -d`
 
 ## References
-- https://github.com/cslarsen/wpm
-- https://github.com/chriswolfvision/eplot
-- https://github.com/glamp/bashplotlib
-- https://github.com/madbence/node-drawille
-- https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/
-- https://stackoverflow.com/questions/123378/command-line-unix-ascii-based-charting-plotting-tool
+- [wpm](https://github.com/cslarsen/wpm)
+- [eplot](https://github.com/chriswolfvision/eplot)
+- [bashplotlib](https://github.com/glamp/bashplotlib)
+- [drawille](https://github.com/madbence/node-drawille)
+- [spark dataframe reference](https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/)
+- [stack overflow tooling reference](https://stackoverflow.com/questions/123378/command-line-unix-ascii-based-charting-plotting-tool)
