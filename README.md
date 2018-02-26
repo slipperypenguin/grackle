@@ -32,20 +32,20 @@ Run a notebook:
 `jupyter notebook directory/containing/notebook`
 
 Histogram Plot in terminal
-`hist -f hist_plot.txt -b 40 -x wpm -c blue -p x`
+`hist -f data/hist_plot.txt -b 40 -x wpm -c blue -p x`
 
 ## Eplot
 Basic Example with eplot
-`./eplot y_plot.txt -d`
+`./eplot data/y_plot.txt -d`
 
 File | Filter | Plot
-`cat wpm_ec.csv | ./ec -, 1 3 | ./eplot -d`
+`cat data/wpm_ec.csv | ./ec -, 1 3 | ./eplot -d`
 
 File | race wpm accuracy | Plot
-`cat wpm_ec.csv | ./ec -, 1 2 3 | ./eplot -d`
+`cat data/wpm_ec.csv | ./ec -, 1 2 3 | ./eplot -d`
 
 File | race wpm accuracty | Plot @Labels@
-`cat wpm_ec.csv | ./ec -, 1 2 3 | ./eplot -M -t Race@wpm@Acc -d`
+`cat data/wpm_ec.csv | ./ec -, 1 2 3 | ./eplot -M -t Race@wpm@Acc -d`
 
 ## References
 - https://github.com/cslarsen/wpm
